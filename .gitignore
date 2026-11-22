@@ -4,6 +4,10 @@
 
 data/snapshots/*.csv
 
+/notebooks/mlflow.db*
+/notebooks/mlruns/
+/notebooks/mlartifacts/
+
 __pycache__/
 *.py[cod]
 .ipynb_checkpoints/
