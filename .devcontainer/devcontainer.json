@@ -1,0 +1,22 @@
+
+{
+    "name": "PSet 3 - Ciencia de Datos",
+    "build": {
+        "dockerfile": "Dockerfile",
+        "context": ".."
+    },
+    "workspaceFolder": "/workspace",
+    "mounts": [
+        "source=${localWorkspaceFolder},target=/workspace,type=bind"
+    ],
+    "forwardPorts": [8888, 5000],
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "ms-python.python",
+                "ms-toolsai.jupyter"
+            ]
+        }
+    },
+    "postCreateCommand": "python -m ipykernel install --user --name pset3 --display-name 'Python (PSet 3)'"
+}
