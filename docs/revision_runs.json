@@ -1,0 +1,16 @@
+{
+  "sha256_dataset_desarrollo": "e2fe712d5cfc35cd58969d960b4be048ff32442b93e2bc610e8d955f980f1b60",
+  "sha256_snapshot_obt": "673213bc5b0fe2ef795cd2492ece28723d4b3d92656aadfb5cadb71ed13dbafb",
+  "candidatos": [
+    "f7e8fd5b27da4cc890134287aae13786",
+    "432e8271a62e42389de9d59e8d934d48",
+    "d6f267f4c60346c58462eaa0af75ce95",
+    "95f5bca094da491aacf43ce1da4349ce",
+    "b6350a1f8f5945668664408312e7d68f"
+  ],
+  "tuning": {
+    "RandomForestClassifier": "28f9e653515d49b58784d3c29e5a9b2f",
+    "LogisticRegression": "b5f0bb696a9a456192ee79755b853c53",
+    "SVC": "7b6aac14ada74df7b79b034cc4debba6"
+  }
+}
